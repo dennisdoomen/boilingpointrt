@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoilingPointRT", "BoilingPointRT\BoilingPointRT.csproj", "{8C8A7375-DBE0-40C6-97E3-D27E9F7C39CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "BoilingPointRT\ClientApp.csproj", "{8C8A7375-DBE0-40C6-97E3-D27E9F7C39CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
