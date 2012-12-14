@@ -9,8 +9,8 @@
     <ProjectGuid>{3A97D50B-7A20-454F-A17B-1D06385F64C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClientApp.Specs</RootNamespace>
-    <AssemblyName>ClientApp.Specs</AssemblyName>
+    <RootNamespace>BoilingPoint.ClientApp.Specs</RootNamespace>
+    <AssemblyName>BoilingPoint.ClientApp.Specs</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

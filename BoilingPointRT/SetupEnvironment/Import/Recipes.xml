@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<recipes>
+  <recipe name="Sunshine Toast">
+    <summary>
+      This is a quick easy recipe, for lovers of fried eggs on toast. It's a clever twist on usual fried eggs.
+    </summary>
+    <categories>
+      <category name="Dishes and Meals/Trusted Brands: Recipes and Tips/American Egg Board" />
+      <category name="Breakfast and Brunch/Egg Dishes" />
+      <category name="Everyday Cooking/Quick and Easy" />
+      <category name="Bread" />
+      <category name="Breakfast and Brunch " />
+    </categories>
+    <timing prepTime="15" cookTime="10" totalTime="15" />
+    <nutricialPerServing calories="342" totalFatGrams="28.8" CholesterolMilligrams="273" />
+    <ingredients servings="1">
+      <ingredient name="butter" quantity="30" unit="grams" />
+      <ingredient name="bread" quantity="1" unit="slice" />
+      <ingredient name="egg" quantity="1" unit="item" />
+      <ingredient name="salt" quantity="1" unit="item" />
+    </ingredients>
+    <steps>
+      <step>
+        Melt 1 tablespoon butter in a small skillet over medium heat.
+      </step>
+      <step>
+        Using a glass or cookie cutter, create a hole in the middle of the bread, removing the center so it is perfectly circular. 
+        Butter the bread lightly on both sides and lightly fry it on one side, and then turn it over. Crack the egg into the hole in the middle 
+        of the bread and fry quickly. Be careful that the bread does not burn. Serve warm.
+      </step>
+    </steps>
+    <reviews>
+      <review rating="5" user="sarahjo" date="27-06-2008" valued="108">
+        This was made for my sister and I when we were little, only we called it "Toad in the Hole". 
+        I made this today for my boys, just to make today a little easier. I used a star cookie cutter and after the egg cooked a little, 
+        I put a little shredded cheese on the egg before flipping. I like mine with hot sauce and sometimes salsa to dip. 
+        My boys LOVED these, and asked for seconds! Thanks for posting this recipe. It's nice to share these recipes I had as a kid 
+        with my boys."/>
+      </review>
+      <review rating="5" user="leenie050" date="16-11-2007" valued="104">
+        We call it egg-in-a-hole, and I have perfected the art! First, it helps to cook on a low heat and cover with a lid to cook 
+        the egg without burning the bread. Also, I sprinkle salt pepper and Season-all on the raw egg side. Second, after you flip 
+        the bread to cook the other side, sprinkle a little cheddar cheese on the cooked side and cover again and allow cheese to melt 
+        while the other side cooks. Hope you love the suggestions!
+      </review>
+    </reviews>
+  </recipe>
+  <recipe name="Shrimp and Broccoli Fettuccine">
+    <summary>
+      Fettuccine with garlic shrimp and broccoli in a lemony cream sauce is topped with chopped fresh tomatoes in this easy 
+      but elegant one-dish meal
+    </summary>
+    <categories>
+      <category name="Everyday Cooking/Quick and Easy/30-Minute-Meals" />
+      <category name="Pasta" />
+    </categories>
+    <timing prepTime="20" totalTime="20" />
+    <nutricialPerServing calories="308" totalFatGrams="10.6" CholesterolMilligrams="14" />
+    <ingredients servings="4">
+      <ingredient name="fettuccine, uncooked" quantity="0.25" unit="pounds" />
+      <ingredient name="broccoli florets" quantity="1" unit="cup" />
+      <ingredient name="frozen cooked cleaned medium shrimp, thawed" quantity="0.75" unit="pounds" />
+      <ingredient name="clove garlic, minced" quantity="1" unit="item" />
+      <ingredient name="tub PHILADELPHIA Savory Lemon &amp; Herb Cooking Creme" quantity="10" unit="ounce" />
+      <ingredient name="milk" quantity="0.25" unit="cup" />
+      <ingredient name="chopped tomatoes" quantity="0.25" unit="cup" />
+    </ingredients>
+    <steps>
+      <step>
+        Cook pasta in large saucepan as directed on package, omitting salt and adding broccoli for the last 3 min. Drain; keep warm.
+      </step>
+      <step>
+        Cook and stir shrimp and garlic in large nonstick skillet on medium heat 2 to 3 min. or until shrimp are heated through. Add 
+        cooking creme and milk; cook and stir 2 min.
+      </step>
+      <step>
+        Add pasta to shrimp mixture; mix lightly. Top with tomatoes.
+      </step>
+    </steps>
+    <servingSuggestion>
+      Serve with a mixed green salad tossed with your favorite KRAFT Light Dressing.
+    </servingSuggestion>
+    <variations>
+      <variation>
+        Prepare as directed, substituting 3/4 lb. boneless skinless chicken breasts, cut into strips, for the shrimp and 
+        increasing the cooking time to 6 to 7 min. or until chicken is done. Add cooking creme and milk; continue as directed.
+      </variation>
+    </variations>
+    <reviews>
+      <review rating="4" user="jharvey0507" date="17-02-2012" valued="19">
+        I made this and it is DELICIOUS! I did add a couple things. I sauteed the shrimp and garlic in butter instead of simply 
+        alone in the pan, that kept them from sticking and it added a touch of flavor. Also, I DID NOT omit the salt when boiling 
+        the fetuccine. It made a difference in the flavor, but a good difference. Next time I will add chicken boulion to the water 
+        instead to add more depth to the flavor though, and maybe even put a bit in the cooking cream mixture, it just seemed like 
+        it needed something else. But if you don't like robust flavors, I wouldn't suggest it. I like to take recipe's, change them up
+        and make them my own. I WAS DELICIOUS AS IT WAS ANYWAY!!!!
+      </review>
+      <review rating="4" user="N. Huffer" date="17-02-2012" valued="15">
+        I went to several different grocery stores and could not find the lemon pepper cooking cream. I had to settle for Italian 
+        Cheese instead. But it was a Valentine's Day delight for the husband. Thanks for the quick and easy recipe. There was too 
+        much sauce that never really thickened up. I just steamed more broccoli and added it- perfect.
+      </review>
+    </reviews>
+  </recipe>
+</recipes>

@@ -7,8 +7,8 @@
     <ProjectGuid>{8C8A7375-DBE0-40C6-97E3-D27E9F7C39CF}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BoilingPointRT</RootNamespace>
-    <AssemblyName>BoilingPointRT</AssemblyName>
+    <RootNamespace>BoilingPointRT.ClientApp</RootNamespace>
+    <AssemblyName>BoilingPointRT.ClientApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

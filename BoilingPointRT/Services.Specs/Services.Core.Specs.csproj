@@ -6,8 +6,8 @@
     <ProjectGuid>{64128708-4187-4891-9AE5-3F59467C0425}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Services.Specs</RootNamespace>
-    <AssemblyName>Services.Specs</AssemblyName>
+    <RootNamespace>BoilingPointRT.Services.Core.Specs</RootNamespace>
+    <AssemblyName>BoilingPointRT.Services.Core.Specs</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -82,6 +82,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Services.Core\Services.Core.csproj">
+      <Project>{a00b180e-407f-41f5-950d-9ff80d64cde7}</Project>
+      <Name>Services.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
