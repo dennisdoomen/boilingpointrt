@@ -39,8 +39,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commanding\Commands\CreateRecipeCommand.cs" />
+    <Compile Include="Commanding\Handlers\CreateRecipeCommandHandler.cs" />
+    <Compile Include="Commanding\ICommand.cs" />
+    <Compile Include="Commanding\IHandleCommand.cs" />
+    <Compile Include="Common\EnumerableExtensions.cs" />
+    <Compile Include="Common\ExceptionExtensions.cs" />
+    <Compile Include="Common\ExpressionExtensions.cs" />
+    <Compile Include="Common\GuidExtensions.cs" />
+    <Compile Include="Common\GuidUtility.cs" />
+    <Compile Include="Common\ICloneable.cs" />
+    <Compile Include="Common\Inflector.cs" />
+    <Compile Include="Common\LambdaComparer.cs" />
+    <Compile Include="Common\ObjectExtensions.cs" />
+    <Compile Include="Common\ReflectionExtensions.cs" />
+    <Compile Include="Common\StringExtensions.cs" />
+    <Compile Include="Common\TimeSpanConversionExtensions.cs" />
+    <Compile Include="Common\TypeExtensions.cs" />
+    <Compile Include="DataAccess\IPersistable.cs" />
+    <Compile Include="DataAccess\Repository.cs" />
+    <Compile Include="Domain\AggregateRootReflector.cs" />
+    <Compile Include="Domain\AggregateState.cs" />
+    <Compile Include="Domain\Descriptor.cs" />
+    <Compile Include="Domain\DescriptorEnumerator.cs" />
+    <Compile Include="Domain\DescriptorEnumeratorExtensions.cs" />
+    <Compile Include="Domain\DomainEvents.cs" />
+    <Compile Include="Domain\Entity.cs" />
+    <Compile Include="Domain\Event.cs" />
+    <Compile Include="Domain\EventAppliedArgs.cs" />
+    <Compile Include="Domain\EventMappingCache.cs" />
+    <Compile Include="Domain\EventSource.cs" />
+    <Compile Include="Domain\Handles.cs" />
+    <Compile Include="Domain\IAggregateRoot.cs" />
+    <Compile Include="Domain\IdentityAttribute.cs" />
+    <Compile Include="Domain\IDescriptorEnumerator.cs" />
+    <Compile Include="Domain\IDomainEvent.cs" />
+    <Compile Include="Domain\IEntity.cs" />
+    <Compile Include="Domain\IEventSource.cs" />
+    <Compile Include="Domain\IVersionedEntity.cs" />
+    <Compile Include="Domain\Recipe.cs" />
+    <Compile Include="Domain\RecipeIdentity.cs" />
+    <Compile Include="DataAccess\IDomainMapper.cs" />
+    <Compile Include="Domain\GuidKey.cs" />
+    <Compile Include="Domain\IAggregateRootKey.cs" />
+    <Compile Include="Domain\RecipeState.cs" />
+    <Compile Include="Domain\VersionedEntity.cs" />
+    <Compile Include="ExceptionHandling\ApplicationErrorException.cs" />
+    <Compile Include="ExceptionHandling\Error.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
