@@ -2,11 +2,17 @@
 
 using BoilingPointRT.Services.Commanding.Commands;
 using BoilingPointRT.Services.Commanding.Handlers;
+using BoilingPointRT.Services.Core.Specs.Support;
+using BoilingPointRT.Services.DataAccess;
 using BoilingPointRT.Services.Domain;
+
+using FluentAssertions;
 
 using Machine.Specifications;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+using System.Linq;
 
 namespace BoilingPointRT.Services.Core.Specs.Commands.Recipes
 {
@@ -15,7 +21,10 @@ namespace BoilingPointRT.Services.Core.Specs.Commands.Recipes
     {
         private Establish context = () =>
         {
-            handler = new CreateRecipeCommandHandler();
+            dataMapper = new InMemoryDataMapper();
+            var uow = new DomainUnitOfWork(dataMapper);
+
+            handler = new CreateRecipeCommandHandler(() => uow);
         };
 
         private Because of = () => handler.Handle(new CreateRecipeCommand
@@ -26,9 +35,14 @@ namespace BoilingPointRT.Services.Core.Specs.Commands.Recipes
 
         private It should = () =>
         {
-            Assert.Fail("");
+            var recipes = dataMapper.GetCommittedEntities<Recipe>();
+            recipes.Should().NotBeEmpty();
+
+            var recipe = recipes.Single();
+            
         };
 
         private static CreateRecipeCommandHandler handler;
+        private static InMemoryDataMapper dataMapper;
     }
 }

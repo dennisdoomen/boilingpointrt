@@ -56,8 +56,10 @@
     <Compile Include="Common\StringExtensions.cs" />
     <Compile Include="Common\TimeSpanConversionExtensions.cs" />
     <Compile Include="Common\TypeExtensions.cs" />
+    <Compile Include="DataAccess\DomainUnitOfWork.cs" />
     <Compile Include="DataAccess\IPersistable.cs" />
     <Compile Include="DataAccess\Repository.cs" />
+    <Compile Include="DataAccess\UnitOfWork.cs" />
     <Compile Include="Domain\AggregateRootReflector.cs" />
     <Compile Include="Domain\AggregateState.cs" />
     <Compile Include="Domain\Descriptor.cs" />

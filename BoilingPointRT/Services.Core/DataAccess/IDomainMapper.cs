@@ -5,11 +5,24 @@ using BoilingPointRT.Services.Domain;
 
 namespace BoilingPointRT.Services.DataAccess
 {
+    public interface IDataMapper : IDisposable
+    {
+        /// <summary>
+        /// Removes an individual entity from the current unit of work.
+        /// </summary>
+        void Evict(IPersistable persistable);
+
+        /// <summary>
+        /// If the domain mapper has changes, then it will persist all changes to the underlying data store.
+        /// </summary>
+        void SubmitChanges();
+    }
+
     /// <summary>
     /// Provides an abstraction of an object-oriented data mapper such as required by the <see cref="DomainUnitOfWork" />
     /// class.
     /// </summary>
-    public interface IDomainMapper : IDisposable
+    public interface IDomainMapper : IDataMapper
     {
         /// <summary>
         /// Should add the specified aggregate root to the unit of work and keep track of its changes.
@@ -20,11 +33,6 @@ namespace BoilingPointRT.Services.DataAccess
         void Add(IEventSource aggregateRoot);
 
         /// <summary>
-        /// If the domain mapper has changes, then it will persist all changes to the underlying data store.
-        /// </summary>
-        void SubmitChanges();
-
-        /// <summary>
         /// Gets an instance of an entity based on its functional key and the version.
         /// </summary>
         object Get(Type aggregateRootType, object key, long version = VersionedEntity.IgnoredVersion);
@@ -33,11 +41,6 @@ namespace BoilingPointRT.Services.DataAccess
         /// Check if a specific entity exists.
         /// </summary>
         bool Exists(Type aggregateRootType, object key);
-
-        /// <summary>
-        /// Removes an individual entity from the current unit of work.
-        /// </summary>
-        void Evict(IEventSource aggregate);
 
         /// <summary>
         /// Removes all entities from the current unit of work.
